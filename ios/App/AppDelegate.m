@@ -31,8 +31,7 @@
    * `inet` value under `en0:`) and make sure your computer and iOS device are
    * on the same Wi-Fi network.
    */
-
-  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle"];
+  //jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.14:8081/index.ios.bundle"];
 
   /**
    * OPTION 2
@@ -44,15 +43,16 @@
    * see http://facebook.github.io/react-native/docs/runningondevice.html
    */
 
-//   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"App"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
 
-  [[Twitter sharedInstance] startWithConsumerKey:@"REDACTED" consumerSecret:@"REDACTED"];
-  [Fabric with:@[[Twitter sharedInstance]]];
+  //[[Twitter sharedInstance] startWithConsumerKey:@"Ej9zPkUYQChUmNOzhuMbg" consumerSecret:@"9pK3ro7gJM9MEBoE2bOzNscSFWynf8E8RyWsNoF8xw"];
+  //[Fabric with:@[[Twitter sharedInstance]]];
+  [Fabric with:@[[Twitter class]]];
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [[UIViewController alloc] init];
   rootViewController.view = rootView;

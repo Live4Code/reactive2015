@@ -23,16 +23,16 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>548b0c9ec905bbf2fcefe045c9cbcb872ec47c1f</string>
+		<string>14d11fd13deb2a7b08034206377fb84663750b50</string>
 		<key>Kits</key>
 		<array>
 			<dict>
 				<key>KitInfo</key>
 				<dict>
 					<key>consumerKey</key>
-					<string>IoPu6Lv5i5JGhquqnNWiA3vhJ</string>
+					<string>336mfIIwYE2njQSd4boFkII0e</string>
 					<key>consumerSecret</key>
-					<string>8qTagbxvK2QweVT61YjCpDf1PyfaA9CpiJqq1ellZx1Z3aXmeJ</string>
+					<string>YbpYEyYnTE80LcWGpR6dmcGFE7TzaK2ccLEHaM5OnXX4NsXAE3</string>
 				</dict>
 				<key>KitName</key>
 				<string>Twitter</string>

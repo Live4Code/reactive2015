@@ -47,7 +47,7 @@ const ReactiveMap = React.createClass({
           }
         ]}
         centerCoordinate={{latitude: 48.152458, longitude:17.1145873}}
-        accessToken="REDACTED"/>
+        accessToken="pk.eyJ1IjoibXVmZmludGluMCIsImEiOiJjaWZxZ3Y0enNqbGZ5cnNtNzdlMXkyY3B6In0.YON3agZTa7FpZT1-Y5xsKQ"/>
     );
   }
 });
